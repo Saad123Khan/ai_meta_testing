@@ -39,7 +39,7 @@ export const metadata: Metadata = {
       },
     ],
     fb: {
-      app_id: "YOUR_APP_ID_HERE", // Replace YOUR_APP_ID_HERE with your actual app ID
+      app_id: "866802185614739", // Replace YOUR_APP_ID_HERE with your actual app ID
     },
   },
 };
