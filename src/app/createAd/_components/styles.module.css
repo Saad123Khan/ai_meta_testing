@@ -1,0 +1,23 @@
+/* Add this in a CSS file, e.g., styles/globals.css */
+.folder {
+    position: relative;
+    width: 18rem;
+    height: 12rem;
+    background-color: white;
+    border-radius: 0 0 0.75rem 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .folder-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 1.5rem;
+    background-color: white;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
