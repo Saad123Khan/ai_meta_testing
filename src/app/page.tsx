@@ -16,7 +16,8 @@ export default function Home() {
         />
         
         <meta property="og:image" content="https://ai-meta-testing.vercel.app/assets/logo.webp"/>
-        <meta property="og:image:secure_url" content="https://ai-meta-testing.vercel.app/assets/logo.webp" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:url" content="https://ai-meta-testing.vercel.app" />
         <meta property="og:type" content="website" />
       </Head>
