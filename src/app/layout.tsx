@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -48,20 +48,20 @@ export default function RootLayout({
 }>) {
   const route = usePathname();
 
-  const paths = [
-    "/logout",
-    "/",
-    "/welcomeScreen",
-    "/plansAndPricing",
-    "/auth",
-    "/forgotPassword",
-    "/checkout",
-    "/googleAnalytics",
-  ];
-  const verifyOtpRegex = /^\/(verify-otp|update-password)\/[^/]+$/;
-  const isValidRoute = paths.includes(route) || verifyOtpRegex.test(route);
+  // const paths = [
+  //   "/logout",
+  //   "/",
+  //   "/welcomeScreen",
+  //   "/plansAndPricing",
+  //   "/auth",
+  //   "/forgotPassword",
+  //   "/checkout",
+  //   "/googleAnalytics",
+  // ];
+  // const verifyOtpRegex = /^\/(verify-otp|update-password)\/[^/]+$/;
+  // const isValidRoute = paths.includes(route) || verifyOtpRegex.test(route);
 
-  console.log(paths.includes(route), "routeroute");
+  // console.log(paths.includes(route), "routeroute");
   return (
     <html lang="en">
       {/* <Head>
@@ -85,7 +85,8 @@ export default function RootLayout({
       >
         <ReduxProvider>
           <ReactQuery>
-            {isValidRoute ? <>{children}</> : <SideBar>{children}</SideBar>}
+            {/* {isValidRoute ? <>{children}</> : <SideBar>{children}</SideBar>} */}
+            {children}
             <Toaster />
           </ReactQuery>
         </ReduxProvider>
