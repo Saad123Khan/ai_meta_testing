@@ -21,25 +21,25 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// export const metadata: Metadata = {
-//   title: "AI",
-//   description: "AI marketing",
-//   openGraph: {
-//     title: "Majai",
-//     description: "AI marketing",
-//     url: "https://majai.se",
-//     type: "website",
-//     images: [
-//       {
-//         url: "https://app.majai.se/assets/logo.webp",
-//         secureUrl: "https://app.majai.se/assets/logo.webp",
-//         alt: "Majai Logo",
-//         width: 800,
-//         height: 600,
-//       },
-//     ],
-//   },
-// };
+export const metadata: Metadata = {
+  title: "AI",
+  description: "AI marketing",
+  openGraph: {
+    title: "Majai",
+    description: "AI marketing",
+    url: "https://majai.se",
+    type: "website",
+    images: [
+      {
+        url: "https://app.majai.se/assets/logo.webp",
+        secureUrl: "https://app.majai.se/assets/logo.webp",
+        alt: "Majai Logo",
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
+};
 
 export default function RootLayout({
   children,
@@ -80,26 +80,6 @@ export default function RootLayout({
         <meta property="og:url" content="https://ai-meta-testing.vercel.app" />
         <meta property="og:type" content="website" />
       </Head> */}
-       <Head>
-        <title>AI</title>
-        <meta property="og:title" content="Majai" />
-        <meta property="og:description" content="AI marketing" />
-        <meta property="og:url" content="https://majai.se" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://app.majai.se/assets/logo.webp"
-        />
-       
-        <meta property="og:image:alt" content="Majai Logo" />
-        <meta
-          property="og:image:secure_url"
-          content="https://app.majai.se/assets/logo.webp"
-        />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
-        <meta property="fb:app_id" content="866802185614739" />
-      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
