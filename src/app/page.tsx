@@ -15,9 +15,9 @@ export default function Home() {
           content="AI marketing"
         />
         
-        <meta property="og:image" content="https://app.majai.se/assets/logo.webp"/>
-        <meta property="og:image:secure" content="https://app.majai.se/assets/logo.webp" />
-        <meta property="og:url" content="https://majai.se" />
+        <meta property="og:image" content="https://ai-meta-testing.vercel.app/assets/logo.webp"/>
+        <meta property="og:image:secure" content="https://ai-meta-testing.vercel.app/assets/logo.webp" />
+        <meta property="og:url" content="https://ai-meta-testing.vercel.app" />
         <meta property="og:type" content="website" />
       </Head>
      {/* <Dashboard/> */}
