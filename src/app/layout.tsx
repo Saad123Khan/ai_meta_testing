@@ -56,9 +56,9 @@ export default function RootLayout({
           property="og:description"
           content="AI marketing"
         />
-      
+        
         <meta property="og:image" content="https://ai-meta-testing.vercel.app/assets/logo.webp"/>
-           <meta
+        <meta
           property="og:image:secure_url"
           content="https://ai-meta-testing.vercel.app/assets/logo.webp"
         />
