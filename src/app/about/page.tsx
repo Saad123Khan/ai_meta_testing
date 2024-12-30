@@ -10,11 +10,11 @@ const About = () => {
             property="og:description"
             content="AI marketing"
           />
+          <meta property="og:image" content="https://app.majai.se/assets/logo.webp"/>
            <meta
-            property="og:image:secure"
+            property="og:image:secure_url"
             content="https://app.majai.se/assets/logo.webp"
           />
-          <meta property="og:image" content="https://app.majai.se/assets/logo.webp"/>
           <meta property="og:url" content="https://majai.se" />
           <meta property="og:type" content="website" />
         </Head>
