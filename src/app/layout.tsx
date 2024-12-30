@@ -80,6 +80,25 @@ export default function RootLayout({
         <meta property="og:url" content="https://ai-meta-testing.vercel.app" />
         <meta property="og:type" content="website" />
       </Head> */}
+       <Head>
+        <title>AI</title>
+        <meta property="og:title" content="Majai" />
+        <meta property="og:description" content="AI marketing" />
+        <meta property="og:url" content="https://majai.se" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://app.majai.se/assets/logo.webp"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://app.majai.se/assets/logo.webp"
+        />
+        <meta property="og:image:alt" content="Majai Logo" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+        <meta property="fb:app_id" content="866802185614739" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
