@@ -46,7 +46,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const route = usePathname();
+  // const route = usePathname();
 
   // const paths = [
   //   "/logout",
