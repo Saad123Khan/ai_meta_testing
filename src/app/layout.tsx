@@ -38,6 +38,9 @@ export const metadata: Metadata = {
         height: 600,
       },
     ],
+    fb: {
+      app_id: "YOUR_APP_ID_HERE", // Replace YOUR_APP_ID_HERE with your actual app ID
+    },
   },
 };
 
